@@ -10,7 +10,6 @@
 		BE9FA8A92C47DA3100CF780C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9FA8A82C47DA3100CF780C /* AppDelegate.swift */; };
 		BE9FA8AB2C47DA3100CF780C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9FA8AA2C47DA3100CF780C /* SceneDelegate.swift */; };
 		BE9FA8B02C47DA3200CF780C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE9FA8AE2C47DA3200CF780C /* Main.storyboard */; };
-		BE9FA8B22C47DA3500CF780C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9FA8B12C47DA3500CF780C /* Assets.xcassets */; };
 		BE9FA8B52C47DA3500CF780C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE9FA8B32C47DA3500CF780C /* LaunchScreen.storyboard */; };
 		BE9FA8C02C47DA3500CF780C /* moviedbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9FA8BF2C47DA3500CF780C /* moviedbTests.swift */; };
 		BE9FA8CA2C47DA3500CF780C /* moviedbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9FA8C92C47DA3500CF780C /* moviedbUITests.swift */; };
@@ -77,9 +76,7 @@
 		BE9FA8AA2C47DA3100CF780C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BE9FA8AC2C47DA3100CF780C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BE9FA8AF2C47DA3200CF780C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BE9FA8B12C47DA3500CF780C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE9FA8B42C47DA3500CF780C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BE9FA8B62C47DA3500CF780C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE9FA8BB2C47DA3500CF780C /* moviedbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moviedbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE9FA8BF2C47DA3500CF780C /* moviedbTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moviedbTests.swift; sourceTree = "<group>"; };
 		BE9FA8C52C47DA3500CF780C /* moviedbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moviedbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,9 +149,7 @@
 				BE9FA8AA2C47DA3100CF780C /* SceneDelegate.swift */,
 				BE9FA8AC2C47DA3100CF780C /* ViewController.swift */,
 				BE9FA8AE2C47DA3200CF780C /* Main.storyboard */,
-				BE9FA8B12C47DA3500CF780C /* Assets.xcassets */,
 				BE9FA8B32C47DA3500CF780C /* LaunchScreen.storyboard */,
-				BE9FA8B62C47DA3500CF780C /* Info.plist */,
 			);
 			path = moviedb;
 			sourceTree = "<group>";
@@ -226,8 +221,6 @@
 			isa = PBXGroup;
 			children = (
 				BE9FA9102C48828100CF780C /* data */,
-				BE9FA9122C48828100CF780C /* domain */,
-				BE9FA9132C48828100CF780C /* presentation */,
 			);
 			path = listMovies;
 			sourceTree = "<group>";
@@ -249,20 +242,6 @@
 				BE9FA9272C4891D400CF780C /* Dates.swift */,
 			);
 			path = models;
-			sourceTree = "<group>";
-		};
-		BE9FA9122C48828100CF780C /* domain */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = domain;
-			sourceTree = "<group>";
-		};
-		BE9FA9132C48828100CF780C /* presentation */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = presentation;
 			sourceTree = "<group>";
 		};
 		BE9FA91C2C48893400CF780C /* mappers */ = {
@@ -397,7 +376,6 @@
 			files = (
 				BE9FA8FB2C48569D00CF780C /* TestingServerConfigurations.plist in Resources */,
 				BE9FA8B52C47DA3500CF780C /* LaunchScreen.storyboard in Resources */,
-				BE9FA8B22C47DA3500CF780C /* Assets.xcassets in Resources */,
 				BE9FA8F82C48569D00CF780C /* LiveServerConfigurations.plist in Resources */,
 				BE9FA8B02C47DA3200CF780C /* Main.storyboard in Resources */,
 			);
